@@ -1,5 +1,5 @@
 #+TITLE: Connor Parsons
-#+SUBTITLE: Software Engineer@@html:<br>@@[[https://linkedin.com/in/connorparsons][Linkedin]] [[https://github.com/connorgreyparsons][Github]]@@html:<br>@@[[mailto:cgreyparsons@gmail.com][cgreyparsons@gmail]]
+#+SUBTITLE: Software Engineer@@html:<br>@@[[https://linkedin.com/in/connorparsons][Linkedin]] [[https://github.com/connorgreyparsons][Github]]@@html:<br>@@[[mailto:cgreyparsons@gmail.com][cgreyparsons@gmail.com]]
 
 #+EXPORT_FILE_NAME: index.html
 #+OPTIONS: html-scripts:nil html-preamble:nil html-postamble:nil author:nil toc:nil num:nil
@@ -47,5 +47,5 @@ Mocha, Heroku, Digital Ocean, Twilio
     - Designed and implemented all front-end views using Bootstrap
 
 * _Education_
-** Louisiana State University
+** Louisiana State University, Baton Rouge, LA
    - Bachelors, Interdisciplinary Studies, 2019
