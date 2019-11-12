@@ -37,14 +37,11 @@ Mocha, Heroku, Digital Ocean, Twilio
     - Designed and developed a reporting dashboard for accountants to query transaction and customer data and download reports in PDF and Excel formats
     - Used AWS Lambda to run a function that pulls CSV files from an S3 bucket to parse and insert into a SQL database
     - Designed and developed a dashboard for accountants to compare and group transactions to create batches and add adjustments
-    - Built a dashboard for casino employees to process and batch jackpot transactions, autopopulate relevant customer tax forms, and file electronically with
-the IRS
+    - Built a dashboard for casino employees to process and batch jackpot transactions, autopopulate relevant customer tax forms, and file electronically with the IRS
 **** Jefferson Parish Juvenile Court
     - Built a dashboard to query clients and process client progress in the JPJC Deferral program
-    - Developed a console application using Twilio to pull user data from a SQL database and send SMS text notifications to clients based on progress in the
-JPJC Deferral program
-- Designed and developed dashboards to review court cases referred to Deferral, process and upload necessary documents, schedule meetings and email
-an iCal event to relevant parties
+    - Developed a console application using Twilio to pull user data from a SQL database and send SMS text notifications to clients based on progress in the JPJC Deferral program
+    - Designed and developed dashboards to review court cases referred to Deferral, process and upload necessary documents, schedule meetings and email an iCal event to relevant parties
 **** Delta Sigma Delta (International Dental Fraternity Organization)
     - Helped design and implement membership management system where chapter administrators manage members
     - Set up role-based permissions for various types of users in organization
