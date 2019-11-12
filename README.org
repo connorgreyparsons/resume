@@ -1,0 +1,55 @@
+#+TITLE: Connor Parsons
+#+SUBTITLE: Software Engineer@@html:<br>@@ [[https://linkedin.com/in/connorparsons][Linkedin]] [[https://connorparsons.com][Website]]
+
+#+EXPORT_FILE_NAME: index.html
+#+OPTIONS: html-scripts:nil html-preamble:nil html-postamble:nil author:nil toc:nil num:nil
+
+
+* Technical Skills
+C#, Javascript, .NET, Node.js, SQL, NoSQL, Git, Amazon Web Services, Express.js, Electron, React, HTML, CSS, jQuery, Bootstrap, Stripe, Plaid, Mongo, Mongoose, Webpack,
+Mocha, Heroku, Digital Ocean, Twilio
+
+* Experience
+*** DXC Technology, New Orleans, LA
+   /Software Engineer/
+   @@html:<br>@@
+   Jan. 2019 - current
+**** Global Payments
+    - Created PDF and raw data parsers and diffing tool to detect variance between files
+    - Collaborated on React frontend
+**** Internal POC
+    - Built client web app in Vue for uploading audio file
+    - Wrote Lambda functions and S3 triggers for storage and transcription of audio to text data
+    - Used AWS Transcribe to derive intent and keyword from transcript
+    - Integrated AWS Elasticsearch with Kibana to display analytics in human-readable format.
+**** HP
+    - Implemented dynamically generated SQLite database tables to retain user data and push to central data lake
+    - Made system calls in separate threads to monitor client device
+**** Internal Talent Management Tool
+    - Designed high-level architecture in AWS
+    - Designed and implemented table schema for SQL database
+    - Wrote an AWS Lambda function (Node.js) to consume nested JSON objects and write changes to database
+*** Interactive Information Systems, New Orleans, LA
+   /Software Engineer/
+   @@html:<br>@@
+   Aug. 2017 - Dec. 2018
+**** First American Bankcard, Inc
+    - Designed and developed a reporting dashboard for accountants to query transaction and customer data and download reports in PDF and Excel formats
+    - Used AWS Lambda to run a function that pulls CSV files from an S3 bucket to parse and insert into a SQL database
+    - Designed and developed a dashboard for accountants to compare and group transactions to create batches and add adjustments
+    - Built a dashboard for casino employees to process and batch jackpot transactions, autopopulate relevant customer tax forms, and file electronically with
+the IRS
+**** Jefferson Parish Juvenile Court
+    - Built a dashboard to query clients and process client progress in the JPJC Deferral program
+    - Developed a console application using Twilio to pull user data from a SQL database and send SMS text notifications to clients based on progress in the
+JPJC Deferral program
+- Designed and developed dashboards to review court cases referred to Deferral, process and upload necessary documents, schedule meetings and email
+an iCal event to relevant parties
+**** Delta Sigma Delta (International Dental Fraternity Organization)
+    - Helped design and implement membership management system where chapter administrators manage members
+    - Set up role-based permissions for various types of users in organization
+    - Designed and implemented all front-end views using Bootstrap
+
+* Education
+** Louisiana State University
+   - Bachelors, Interdisciplinary Studies, 2019
