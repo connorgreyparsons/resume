@@ -2,7 +2,7 @@
 #+MACRO: CITY @@html:<small>$1</small>@@@@latex:{\scriptsize $1}@@
 
 #+TITLE: @@latex:\vspace{-4ex}\textbf{Connor Parsons}@@@@html:Connor Parsons@@
-#+SUBTITLE: Software Engineer{{{NEWLINE}}}@@latex:\begin{normalsize}@@[[https:linkedin.com/in/connorparsons][@@latex:linkedin.com/in/connorparsons@@@@html:linkedin@@]] \bullet [[https:github.com/connorgreyparsons][@@latex:github.com/connorgreyparsons@@@@html:github@@]] \bullet [[mailto:cgreyparsons@gmail.com][cgreyparsons@gmail.com]] \bullet @@latex:\href{tel:8505436369}{(850) 543-6369}@@@@html:<a href="tel:8505436369">(850) 543-6369</a>@@@@latex:\vspace{-12ex}\end{normalsize}@@
+#+SUBTITLE: Software Engineer{{{NEWLINE}}}@@latex:\begin{normalsize}@@[[https://linkedin.com/in/connorparsons][@@latex:linkedin.com/in/connorparsons@@@@html:linkedin@@]] \bullet [[https://github.com/connorgreyparsons][@@latex:github.com/connorgreyparsons@@@@html:github@@]] \bullet [[mailto:cgreyparsons@gmail.com][cgreyparsons@gmail.com]] \bullet @@latex:\href{tel:8505436369}{(850) 543-6369}@@@@html:<a href="tel:8505436369">(850) 543-6369</a>@@@@latex:\vspace{-12ex}\end{normalsize}@@
 
 #+EXPORT_FILE_NAME: index
 #+OPTIONS: html-scripts:nil html-preamble:nil html-postamble:nil author:nil num:nil toc:nil date:nil
