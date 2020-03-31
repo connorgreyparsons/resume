@@ -1,0 +1,9 @@
+# ignore all
+*
+# except
+!.gitignore
+!README.org
+!index.html
+!index.tex
+!index.pdf
+CNAME
