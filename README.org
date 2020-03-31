@@ -1,64 +1,68 @@
 #+MACRO: NEWLINE @@latex:\\@@@@html:<br>@@
+#+MACRO: CITY @@html:<small>$1</small>@@@@latex:{\scriptsize $1}@@
 
-#+TITLE: Connor Parsons
-#+SUBTITLE: Software Engineer{{{NEWLINE}}}@@latex:\begin{normalsize}@@[[https:linkedin.com/in/connorparsons][@@latex:linkedin.com/in/connorparsons@@@@html:linkedin@@]] \bullet [[https:github.com/connorgreyparsons][@@latex:github.com/connorgreyparsons@@@@html:github@@]] \bullet [[mailto:cgreyparsons@gmail.com][cgreyparsons@gmail.com]] \bullet @@latex:\href{tel:8505436369}{(850) 543-6369}@@@@html:<a href="tel:8505436369">(850) 543-6369</a>@@@@latex:\vspace{-8ex}\end{normalsize}@@
+#+TITLE: @@latex:\vspace{-4ex}\textbf{Connor Parsons}@@@@html:Connor Parsons@@
+#+SUBTITLE: Software Engineer{{{NEWLINE}}}@@latex:\begin{normalsize}@@[[https:linkedin.com/in/connorparsons][@@latex:linkedin.com/in/connorparsons@@@@html:linkedin@@]] \bullet [[https:github.com/connorgreyparsons][@@latex:github.com/connorgreyparsons@@@@html:github@@]] \bullet [[mailto:cgreyparsons@gmail.com][cgreyparsons@gmail.com]] \bullet @@latex:\href{tel:8505436369}{(850) 543-6369}@@@@html:<a href="tel:8505436369">(850) 543-6369</a>@@@@latex:\vspace{-12ex}\end{normalsize}@@
 
-#+EXPORT_FILE_NAME: index.html
+#+EXPORT_FILE_NAME: index
 #+OPTIONS: html-scripts:nil html-preamble:nil html-postamble:nil author:nil num:nil toc:nil date:nil
+#+HTML_HEAD_EXTRA: <style>* {font-family: 'Monospace';}</style>
 #+LATEX_HEADER: \usepackage{nopageno}
 #+LATEX_HEADER: \usepackage[margin=0.5in, a4paper]{geometry}
 #+LATEX_HEADER: \voffset=-30pt
 #+LATEX_HEADER: \parindent=0pt
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \setitemize{noitemsep}
+#+LATEX_HEADER: \usepackage[compact]{titlesec}
+#+LATEX_HEADER: \usepackage{parskip}
+
+
 
 #+BEGIN_EXPORT html
-<a href="./index.pdf" id="download-link">download as pdf</a>
+<div style="text-align:center;">
+<br />
+<br />
+   <a href="https://github.com/connorgreyparsons/resume">view on github</a>
+   <a href="./index.pdf" download="ConnorParsons_Resume.pdf">download as pdf</a>
+<br />
+<br />
+</div>
 #+END_EXPORT
 
 * _Technical Skills_
 Javascript, Node.js, C#, SQL, C/C++, Scheme, HTML, CSS, Express.js, Electron, React, MongoDB, Webpack,
-{{{NEWLINE}}}
-Git, AWS (VPC, EC2, RDS, S3, Lambda, API Gateway, etc), Linux, Emacs
+@@latex:\\@@Git, AWS (VPC, EC2, RDS, S3, Lambda, API Gateway, etc), Linux, Emacs
 
 * _Experience_
-** DXC Technology, New Orleans, LA
-   /Software Engineer/
-   {{{NEWLINE}}}
-   Jan. 2019 - current
-   - *Global Payments*
-    - Created PDF and raw data parsers and diffing tool to detect variance between files
-    - Collaborated on React frontend
-   - *Internal POC*
-    - Built client web app in Vue for uploading audio file
-    - Wrote Lambda functions and S3 triggers for storage and transcription of audio to text data
-    - Used AWS Transcribe to derive intent and keyword from transcript
-    - Integrated AWS Elasticsearch with Kibana to display analytics in human-readable format.
-   - *HP*
-    - Implemented dynamically generated SQLite database tables to retain user data and push to central data lake
-    - Made system calls in separate threads to monitor client device
-   - *Internal Talent Management Tool*
-    - Designed high-level architecture in AWS
-    - Designed and implemented table schema for SQL database
-    - Wrote an AWS Lambda function (Node.js) to consume nested JSON objects and write changes to database
-** Interactive Information Systems, New Orleans, LA
-   /Software Engineer/
-   {{{NEWLINE}}}
-   Aug. 2017 - Dec. 2018
-   - *First American Bankcard, Inc*
-    - Designed and developed a reporting dashboard for accountants to query transaction and customer data and download reports in PDF and Excel formats
-    - Used AWS Lambda to run a function that pulls CSV files from an S3 bucket to parse and insert into a SQL database
-    - Designed and developed a dashboard for accountants to compare and group transactions to create batches and add adjustments
-    - Built a dashboard for casino employees to process and batch jackpot transactions, autopopulate relevant customer tax forms, and file electronically with the IRS
-   - *Jefferson Parish Juvenile Court*
-    - Built a dashboard to query clients and process client progress in the JPJC Deferral program
-    - Developed a console application using Twilio to pull user data from a SQL database and send SMS text notifications to clients based on progress in the JPJC Deferral program
-    - Designed and developed dashboards to review court cases referred to Deferral, process and upload necessary documents, schedule meetings and email an iCal event to relevant parties
-   - *Delta Sigma Delta (International Dental Fraternity Organization)*
-    - Helped design and implement membership management system where chapter administrators manage members
-    - Set up role-based permissions for various types of users in organization
-    - Designed and implemented all front-end views using Bootstrap
+** DXC Technology | {{{CITY(New Orleans\, LA)}}}
+*Software Engineer* {{{NEWLINE}}}Jan. 2019 - current
+- *CBS*
+  - Used React, Redux, and Sagas for creating components and connecting to API
+  - Wrote user authentication logic using the Okta library to connect with existing Single Sign On
+  - Collaborated with international team across multiple timezones
+- *Global Payments*
+  - Used Node and Electron to create desktop application that accepts file uploads
+  - Parsed, normalized, and diffed file uploads, output detailed TSV report showing variance between files
+  - Participated in code reviews and unit testing
+- *HPE*
+  - Used C# and WinForms to create desktop application and background processes
+  - Implemented dynamically generated SQLite database tables to retain user data and push to central server
+  - Made system calls in separate threads to monitor client device
+- *Internal Talent Management Tool*
+  - Planned and implemented application architecture using AWS resources (EC2, VPC, Lambda, RDS)
+  - Designed table schema for PostgreSQL database
+  - Wrote an AWS Lambda function (Node.js) to consume and parse nested JSON objects and write changes to database
+** Interactive Information Systems | {{{CITY(New Orleans\, LA)}}}
+*Software Engineer* {{{NEWLINE}}}Aug. 2017 - Dec. 2018
+- *First American Bankcard*
+  - Developed a reporting dashboard to query transaction and customer data and download reports in PDF and Excel formats
+  - Used AWS Lambda to periodically run a function that pulls CSV files from an S3 bucket to parse and insert into a SQL database
+  - Participated in client meetings to discuss progress and planning of new features
+- *Jefferson Parish Juvenile Court*
+  - Built a dashboard to query user data and progress users through different stages of the program
+  - Developed a console application using Twilio to pull user data from a SQL database and send SMS notifications to clients based on progress in the program
+  - Designed and developed application for court staff to review cases, process and upload necessary documents, schedule meetings, and email iCal events to relevant parties
 
 * _Education_
-** Louisiana State University, Baton Rouge, LA
-   - Bachelors, Interdisciplinary Studies, 2019
-
-
+** Louisiana State University | {{{CITY(Baton Rouge\, LA)}}}
+- Bachelor's Degree, Interdisciplinary Studies {{{NEWLINE}}}May 2019

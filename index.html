@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2019-11-11 Mon 22:21 -->
+<!-- 2020-03-31 Tue 17:13 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Connor Parsons</title>
@@ -160,6 +161,19 @@
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
   .inlinetask {
     padding: 10px;
     border: 2px solid gray;
@@ -179,105 +193,104 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
+<style>* {font-family: 'Monospace';}</style>
 </head>
 <body>
 <div id="content">
 <h1 class="title">Connor Parsons
 <br />
-<span class="subtitle">Software Engineer<br><a href="https://linkedin.com/in/connorparsons">Linkedin</a> <a href="https://github.com/connorgreyparsons">Github</a><br><a href="mailto:cgreyparsons@gmail.com">cgreyparsons@gmail.com</a></span>
+<span class="subtitle">Software Engineer<br><a href="https:linkedin.com/in/connorparsons">linkedin</a> &bull; <a href="https:github.com/connorgreyparsons">github</a> &bull; <a href="mailto:cgreyparsons@gmail.com">cgreyparsons@gmail.com</a> &bull; <a href="tel:8505436369">(850) 543-6369</a></span>
 </h1>
+<div style="text-align:center;">
+<br />
+<br />
+   <a href="https://github.com/connorgreyparsons/resume">view on github</a>
+   <a href="./index.pdf" download="ConnorParsons_Resume.pdf">download as pdf</a>
+<br />
+<br />
+</div>
 
-<div id="outline-container-org4dc27a6" class="outline-2">
-<h2 id="org4dc27a6"><span class="underline">Technical Skills</span></h2>
-<div class="outline-text-2" id="text-org4dc27a6">
+<div id="outline-container-org49c2efb" class="outline-2">
+<h2 id="org49c2efb"><span class="underline">Technical Skills</span></h2>
+<div class="outline-text-2" id="text-org49c2efb">
 <p>
-C#, Javascript, .NET, Node.js, SQL, NoSQL, Git, Amazon Web Services, Express.js, Electron, React, HTML, CSS, jQuery, Bootstrap, Stripe, Plaid, Mongo, Mongoose, Webpack,
-Mocha, Heroku, Digital Ocean, Twilio
+Javascript, Node.js, C#, SQL, C/C++, Scheme, HTML, CSS, Express.js, Electron, React, MongoDB, Webpack,
+Git, AWS (VPC, EC2, RDS, S3, Lambda, API Gateway, etc), Linux, Emacs
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgaf23e00" class="outline-2">
-<h2 id="orgaf23e00"><span class="underline">Experience</span></h2>
-<div class="outline-text-2" id="text-orgaf23e00">
+<div id="outline-container-org23f042c" class="outline-2">
+<h2 id="org23f042c"><span class="underline">Experience</span></h2>
+<div class="outline-text-2" id="text-org23f042c">
 </div>
-<div id="outline-container-org841b7ea" class="outline-3">
-<h3 id="org841b7ea">DXC Technology, New Orleans, LA</h3>
-<div class="outline-text-3" id="text-org841b7ea">
+<div id="outline-container-orgf00557c" class="outline-3">
+<h3 id="orgf00557c">DXC Technology | <small>New Orleans, LA</small></h3>
+<div class="outline-text-3" id="text-orgf00557c">
 <p>
-<i>Software Engineer</i>
-<br>
-Jan. 2019 - current
+<b>Software Engineer</b> <br>Jan. 2019 - current
 </p>
 <ul class="org-ul">
+<li><b>CBS</b>
+<ul class="org-ul">
+<li>Used React, Redux, and Sagas for creating components and connecting to API</li>
+<li>Wrote user authentication logic using the Okta library to connect with existing Single Sign On</li>
+<li>Collaborated with international team across multiple timezones</li>
+</ul></li>
 <li><b>Global Payments</b>
 <ul class="org-ul">
-<li>Created PDF and raw data parsers and diffing tool to detect variance between files</li>
-<li>Collaborated on React frontend</li>
+<li>Used Node and Electron to create desktop application that accepts file uploads</li>
+<li>Parsed, normalized, and diffed file uploads, output detailed TSV report showing variance between files</li>
+<li>Participated in code reviews and unit testing</li>
 </ul></li>
-<li><b>Internal POC</b>
+<li><b>HPE</b>
 <ul class="org-ul">
-<li>Built client web app in Vue for uploading audio file</li>
-<li>Wrote Lambda functions and S3 triggers for storage and transcription of audio to text data</li>
-<li>Used AWS Transcribe to derive intent and keyword from transcript</li>
-<li>Integrated AWS Elasticsearch with Kibana to display analytics in human-readable format.</li>
-</ul></li>
-<li><b>HP</b>
-<ul class="org-ul">
-<li>Implemented dynamically generated SQLite database tables to retain user data and push to central data lake</li>
+<li>Used C# and WinForms to create desktop application and background processes</li>
+<li>Implemented dynamically generated SQLite database tables to retain user data and push to central server</li>
 <li>Made system calls in separate threads to monitor client device</li>
 </ul></li>
 <li><b>Internal Talent Management Tool</b>
 <ul class="org-ul">
-<li>Designed high-level architecture in AWS</li>
-<li>Designed and implemented table schema for SQL database</li>
-<li>Wrote an AWS Lambda function (Node.js) to consume nested JSON objects and write changes to database</li>
+<li>Planned and implemented application architecture using AWS resources (EC2, VPC, Lambda, RDS)</li>
+<li>Designed table schema for PostgreSQL database</li>
+<li>Wrote an AWS Lambda function (Node.js) to consume and parse nested JSON objects and write changes to database</li>
 </ul></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org47d9f57" class="outline-3">
-<h3 id="org47d9f57">Interactive Information Systems, New Orleans, LA</h3>
-<div class="outline-text-3" id="text-org47d9f57">
+<div id="outline-container-org899d4f6" class="outline-3">
+<h3 id="org899d4f6">Interactive Information Systems | <small>New Orleans, LA</small></h3>
+<div class="outline-text-3" id="text-org899d4f6">
 <p>
-<i>Software Engineer</i>
-<br>
-Aug. 2017 - Dec. 2018
+<b>Software Engineer</b> <br>Aug. 2017 - Dec. 2018
 </p>
 <ul class="org-ul">
-<li><b>First American Bankcard, Inc</b>
+<li><b>First American Bankcard</b>
 <ul class="org-ul">
-<li>Designed and developed a reporting dashboard for accountants to query transaction and customer data and download reports in PDF and Excel formats</li>
-<li>Used AWS Lambda to run a function that pulls CSV files from an S3 bucket to parse and insert into a SQL database</li>
-<li>Designed and developed a dashboard for accountants to compare and group transactions to create batches and add adjustments</li>
-<li>Built a dashboard for casino employees to process and batch jackpot transactions, autopopulate relevant customer tax forms, and file electronically with the IRS</li>
+<li>Developed a reporting dashboard to query transaction and customer data and download reports in PDF and Excel formats</li>
+<li>Used AWS Lambda to periodically run a function that pulls CSV files from an S3 bucket to parse and insert into a SQL database</li>
+<li>Participated in client meetings to discuss progress and planning of new features</li>
 </ul></li>
 <li><b>Jefferson Parish Juvenile Court</b>
 <ul class="org-ul">
-<li>Built a dashboard to query clients and process client progress in the JPJC Deferral program</li>
-<li>Developed a console application using Twilio to pull user data from a SQL database and send SMS text notifications to clients based on progress in the JPJC Deferral program</li>
-<li>Designed and developed dashboards to review court cases referred to Deferral, process and upload necessary documents, schedule meetings and email an iCal event to relevant parties</li>
-</ul></li>
-<li><b>Delta Sigma Delta (International Dental Fraternity Organization)</b>
-<ul class="org-ul">
-<li>Helped design and implement membership management system where chapter administrators manage members</li>
-<li>Set up role-based permissions for various types of users in organization</li>
-<li>Designed and implemented all front-end views using Bootstrap</li>
+<li>Built a dashboard to query user data and progress users through different stages of the program</li>
+<li>Developed a console application using Twilio to pull user data from a SQL database and send SMS notifications to clients based on progress in the program</li>
+<li>Designed and developed application for court staff to review cases, process and upload necessary documents, schedule meetings, and email iCal events to relevant parties</li>
 </ul></li>
 </ul>
 </div>
 </div>
 </div>
 
-<div id="outline-container-org91a8d33" class="outline-2">
-<h2 id="org91a8d33"><span class="underline">Education</span></h2>
-<div class="outline-text-2" id="text-org91a8d33">
+<div id="outline-container-orge02ef19" class="outline-2">
+<h2 id="orge02ef19"><span class="underline">Education</span></h2>
+<div class="outline-text-2" id="text-orge02ef19">
 </div>
-<div id="outline-container-orge9951d5" class="outline-3">
-<h3 id="orge9951d5">Louisiana State University, Baton Rouge, LA</h3>
-<div class="outline-text-3" id="text-orge9951d5">
+<div id="outline-container-orgd6d1fbf" class="outline-3">
+<h3 id="orgd6d1fbf">Louisiana State University | <small>Baton Rouge, LA</small></h3>
+<div class="outline-text-3" id="text-orgd6d1fbf">
 <ul class="org-ul">
-<li>Bachelors, Interdisciplinary Studies, 2019</li>
+<li>Bachelor&rsquo;s Degree, Interdisciplinary Studies <br>May 2019</li>
 </ul>
 </div>
 </div>
