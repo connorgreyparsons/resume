@@ -1,17 +1,28 @@
+#+MACRO: NEWLINE @@latex:\\@@@@html:<br>@@
+
 #+TITLE: Connor Parsons
-#+SUBTITLE: Software Engineer@@html:<br>@@[[https://linkedin.com/in/connorparsons][Linkedin]] [[https://github.com/connorgreyparsons][Github]]@@html:<br>@@[[mailto:cgreyparsons@gmail.com][cgreyparsons@gmail.com]]
+#+SUBTITLE: Software Engineer{{{NEWLINE}}}@@latex:\begin{normalsize}@@[[https:linkedin.com/in/connorparsons][@@latex:linkedin.com/in/connorparsons@@@@html:linkedin@@]] \bullet [[https:github.com/connorgreyparsons][@@latex:github.com/connorgreyparsons@@@@html:github@@]] \bullet [[mailto:cgreyparsons@gmail.com][cgreyparsons@gmail.com]] \bullet @@latex:\href{tel:8505436369}{(850) 543-6369}@@@@html:<a href="tel:8505436369">(850) 543-6369</a>@@@@latex:\vspace{-8ex}\end{normalsize}@@
 
 #+EXPORT_FILE_NAME: index.html
-#+OPTIONS: html-scripts:nil html-preamble:nil html-postamble:nil author:nil toc:nil num:nil
+#+OPTIONS: html-scripts:nil html-preamble:nil html-postamble:nil author:nil num:nil toc:nil date:nil
+#+LATEX_HEADER: \usepackage{nopageno}
+#+LATEX_HEADER: \usepackage[margin=0.5in, a4paper]{geometry}
+#+LATEX_HEADER: \voffset=-30pt
+#+LATEX_HEADER: \parindent=0pt
+
+#+BEGIN_EXPORT html
+<a href="./index.pdf" id="download-link">download as pdf</a>
+#+END_EXPORT
 
 * _Technical Skills_
-C#, Javascript, .NET, Node.js, SQL, NoSQL, Git, Amazon Web Services, Express.js, Electron, React, HTML, CSS, jQuery, Bootstrap, Stripe, Plaid, Mongo, Mongoose, Webpack,
-Mocha, Heroku, Digital Ocean, Twilio
+Javascript, Node.js, C#, SQL, C/C++, Scheme, HTML, CSS, Express.js, Electron, React, MongoDB, Webpack,
+{{{NEWLINE}}}
+Git, AWS (VPC, EC2, RDS, S3, Lambda, API Gateway, etc), Linux, Emacs
 
 * _Experience_
 ** DXC Technology, New Orleans, LA
    /Software Engineer/
-   @@html:<br>@@
+   {{{NEWLINE}}}
    Jan. 2019 - current
    - *Global Payments*
     - Created PDF and raw data parsers and diffing tool to detect variance between files
@@ -30,7 +41,7 @@ Mocha, Heroku, Digital Ocean, Twilio
     - Wrote an AWS Lambda function (Node.js) to consume nested JSON objects and write changes to database
 ** Interactive Information Systems, New Orleans, LA
    /Software Engineer/
-   @@html:<br>@@
+   {{{NEWLINE}}}
    Aug. 2017 - Dec. 2018
    - *First American Bankcard, Inc*
     - Designed and developed a reporting dashboard for accountants to query transaction and customer data and download reports in PDF and Excel formats
@@ -49,3 +60,5 @@ Mocha, Heroku, Digital Ocean, Twilio
 * _Education_
 ** Louisiana State University, Baton Rouge, LA
    - Bachelors, Interdisciplinary Studies, 2019
+
+
