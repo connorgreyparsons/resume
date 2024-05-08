@@ -1,9 +1,5 @@
-# ignore all
-*
-# except
-!.gitignore
-!README.org
-!index.html
-!index.tex
-!index.pdf
-CNAME
+### macOS ###
+.DS_Store
+
+### VisualStudioCode ###
+.vscode/*
