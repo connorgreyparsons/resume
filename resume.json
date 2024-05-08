@@ -1,0 +1,186 @@
+{
+    "personal": {
+        "name": "Connor Parsons",
+        "title": "Software Developer",
+        "location": "New Orleans, LA",
+        "contactLinks": [
+            {
+                "label": "github",
+                "href": "https://github.com/connorgreyparsons"
+            },
+            {
+                "label": "linkedin",
+                "href": "https://linkedin.com/in/connorparsons"
+            },
+            {
+                "label": "cgreyparsons@gmail.com",
+                "href": "mailto:cgreyparsons@gmail.com"
+            },
+            {
+                "label": "(850) 543-6369",
+                "href": "tel:+18505436369"
+            }
+        ],
+        "miscLinks": [
+            {
+                "label": "view this on github",
+                "href": "https://github.com/connorgreyparsons/resume"
+            },
+            {
+                "label": "download pdf",
+                "href": "https://connorparsons.com/index.pdf"
+            }
+        ]
+    },
+    "skills": [
+        "AWS",
+        "Azure",
+        "C#",
+        "C/C++",
+        "CSS",
+        "DevOps",
+        "Electron",
+        "Express.js",
+        "Flask",
+        "Git",
+        "HTML",
+        "Javascript",
+        "Jenkins",
+        "Linux",
+        "Lisp",
+        "MongoDB",
+        "Nginx",
+        "Node.js",
+        "PostgreSQL",
+        "Python",
+        "React",
+        "SQL",
+        "Vue",
+        "Webpack",
+        "Cloudflare"
+    ],
+    "experience": [
+        {
+            "company": "Reflexive Media",
+            "link": "https://audiencekey.com",
+            "location": "Phoenix, AZ",
+            "isRemote": true,
+            "startDate": "Jun 2020",
+            "endDate": "Present",
+            "projects": [
+                {
+                    "label": "Internal Application code migration and SaaS transition",
+                    "bullets": [
+                        "Successfully planned and executed the migration of an existing internal-facing application from server-side rendered Jinja templates to a Vue.js Single Page Application (SPA) architecture.",
+                        "Managed the transition of the application to a Software-as-a-Service (SaaS) model, including setting up payment and subscription mechanisms using Stripe.",
+                        "Designed and implemented a robust user authorization and permission management system to ensure secure access to different application features based on user groups."
+                    ]
+                },
+                {
+                    "label": "Database Performance Enhancement",
+                    "bullets": [
+                        "Overhauled the application back-end by implementing database partitioning to optimize data storage and retrieval, resulting in significantly reduced query times and improved overall application performance."
+                    ]
+                },
+                {
+                    "label": "Cost-Effective Data Management",
+                    "bullets": [
+                        "Developed a data cleanup tool that safely removes old and unnecessary data from the application's database, achieving a ~40% reduction in monthly storage costs."
+                    ]
+                },
+                {
+                    "label": "Tech Stack and Tools",
+                    "bullets": [
+                        "Utilized Python and Flask to build backend services and RESTful APIs to support the Vue.js frontend.",
+                        "Employed Vue.js and JavaScript to create a responsive and dynamic user interface, enhancing user experience.",
+                        "Managed server configuration and deployment using Nginx and Ubuntu on cloud-based infrastructure.",
+                        "Designed and optimized database interactions using PostgreSQL."
+                    ]
+                },
+                {
+                    "label": "Team Management and Collaboration",
+                    "bullets": [
+                        "Worked remotely as an integral part of the Reflexive Media team, collaborating effectively across time zones and communicating progress, challenges, and solutions.",
+                        "Led a development team, providing mentorship, guidance, and supervision to team members.",
+                        "Conducted regular code reviews to ensure code quality, consistency, and adherence to best practices.",
+                        "Delegated tasks and assignments to team members, effectively managing workloads and deadlines."
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "DXC Technology",
+            "link": "https://dxc.com",
+            "location": "New Orleans, LA",
+            "startDate": "Jan 2019",
+            "endDate": "Jun 2020",
+            "projects": [
+                {
+                    "label": "CBS",
+                    "bullets": [
+                        "Used React, Redux, and Sagas for creating components and connecting to API",
+                        "Wrote user authentication logic using the Okta library to connect with existing Single Sign On",
+                        "Collaborated with international team across multiple timezones"
+                    ]
+                },
+                {
+                    "label": "Global Payments",
+                    "bullets": [
+                        "Used Node and Electron to create desktop application that accepts file uploads",
+                        "Parsed, normalized, and diffed file uploads, output detailed TSV report showing variance between files",
+                        "Participated in code reviews and unit testing"
+                    ]
+                },
+                {
+                    "label": "HP",
+                    "bullets": [
+                        "Used C# and WinForms to create desktop application and background processes",
+                        "Implemented dynamically generated SQLite database tables to retain user data and push to central server",
+                        "Made system calls in separate threads to monitor client device"
+                    ]
+                },
+                {
+                    "label": "Internal Talent Management Tool",
+                    "bullets": [
+                        "Planned and implemented application architecture using AWS resources (EC2, VPC, Lambda, RDS)",
+                        "Designed table schema for PostgreSQL database",
+                        "Wrote an AWS Lambda function (Node.js) to consume and parse nested JSON objects and write changes to database"
+                    ]
+                }
+            ]
+        },
+        {
+            "company": "Interactive Information Systems",
+            "link": "https://www.interactiveinformationsystems.com",
+            "location": "New Orleans, LA",
+            "startDate": "Aug 2017",
+            "endDate": "Dec 2018",
+            "projects": [
+                {
+                    "label": "First American Bankcard",
+                    "bullets": [
+                        "Developed a reporting dashboard to query transaction and customer data and download reports in PDF and Excel formats",
+                        "Used AWS Lambda to periodically run a function that pulls CSV files from an S3 bucket to parse and insert into a SQL database",
+                        "Participated in client meetings to discuss progress and planning of new features"
+                    ]
+                },
+                {
+                    "label": "Jefferson Parish Juvenile Court",
+                    "bullets": [
+                        "Built a dashboard to query user data and progress users through different stages of the program",
+                        "Developed a console application using Twilio to pull user data from a SQL database and send SMS notifications to clients based on progress in the program",
+                        "Designed and developed application for court staff to review cases, process and upload necessary documents, schedule meetings, and email iCal events to relevant parties"
+                    ]
+                }
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Louisiana State University",
+            "location": "Baton Rouge, LA",
+            "credential": "Bachelor's Degree, Interdisciplinary Studies",
+            "date": "2019"
+        }
+    ]
+}
